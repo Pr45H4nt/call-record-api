@@ -1,6 +1,26 @@
 # Call Record API
 This is a Django REST framework application for managing call records.
 
+# Installation
+To install and run the application, follow these steps:
+
+Clone the repository:
+```
+git clone https://github.com/your-username/call-record-api.git
+```
+
+Install the dependencies:
+```
+pip install -r requirements.txt
+
+```
+
+Run the server:
+```
+python manage.py runserver
+```
+The API will be available at http://localhost:8000.
+
 # Endpoints
 The application implements the following API endpoints:
 
@@ -52,22 +72,4 @@ id: The ID of the call record to update or delete.
 The API endpoints handle request data validation and return error messages accordingly.
 Validation includes *phone number should be positive integer and no longer than 15 digits*
 
-# Installation
-To install and run the application, follow these steps:
 
-Clone the repository:
-```
-git clone https://github.com/your-username/call-record-api.git
-```
-
-Install the dependencies:
-```
-pip install -r requirements.txt
-
-```
-
-Run the server:
-```
-python manage.py runserver
-```
-The API will be available at http://localhost:8000.
