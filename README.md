@@ -16,8 +16,9 @@ Payload
 ```
 On request to this endpoint, the call details are saved in a database table along with the start_time timestamp.
 
-## /call-report (GET)
+## /call-report?phone =xxxxxx (GET)
 Returns a paginated list of call records where the given number is either the caller's or the receiver's number.
+Extra parameter can be given as ?page=x for pagination. Default page is 1
 
 Parameters
 phone: The phone number to filter by.
